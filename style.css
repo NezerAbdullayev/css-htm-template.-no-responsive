@@ -1,0 +1,217 @@
+* {
+    outline: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Open Sans', Arial, sans-serif;
+    list-style: none;
+}
+
+body {
+    background-color: #cccccc;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/*! baslangic : header start */
+header {
+    background-image: url(images/simple-house-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 460px;
+}
+
+.head-nvb {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 55px;
+}
+
+.head-nav-left {
+    width: 50%;
+}
+
+.head-nav-left-logo {
+    margin-right: 5px;
+}
+
+.head-nav-left {
+    display: flex;
+}
+
+.head-nav-left h1 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.head-nav-left h3 {
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: white;
+    margin-top: 5px;
+}
+
+.head-nav-right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.head-nav-right ul {
+    display: flex;
+    column-gap: 30px;
+}
+
+.head-nav-right ul li a {
+    padding-bottom: 5px;
+    color: white;
+}
+
+.head-nav-right ul li a:hover,
+.head-nav-right ul li a.active {
+    border-bottom: 1px solid white;
+}
+
+/*? header end  */
+
+/*! section 1 start  */
+.section-1 .txt-1 {
+    text-align: center;
+    max-width: 650px;
+    margin: 60px auto 28px;
+}
+
+.section-1 .txt-1 h3 {
+    font-weight: 300;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.section-1 .txt-1 p {
+    color: #626364;
+    line-height: 1.8;
+    font-size: 17px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.section-1 .txt-1-btn {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.section-1 .txt-1-btn button {
+    padding: 13px 30px;
+    color: #2F956D;
+    border: 1px solid #2F956D;
+    background-color: white;
+    transition: color 0.2s, background-color 0.2s;
+    cursor: pointer;
+}
+
+.section-1 .txt-1-btn button:hover,
+.section-1 .txt-1-btn button.active {
+    color: white;
+    background-color: #2F956D;
+}
+
+/*? section 1 end */
+
+/*! section 2 start */
+.section-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.mini-container {
+    width: 250px;
+    margin: 30px 25px;
+}
+
+.mini-container h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #1A6692;
+    margin: 15px 0;
+}
+
+.mini-container p {
+    color: #626364;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.mini-container span {
+    font-size: 1.25rem;
+    color: #2F956D;
+    margin-bottom: 60px
+}
+
+/* ?section 2 end */
+/* !footer start  */
+.mini-container-end {
+    display: grid;
+    grid-template-columns: 1fr 0.9fr;
+    margin: 0 49px;
+    justify-content: center;
+}
+.txt-container-end{
+    display: flex;
+    flex-direction: column;
+}
+.txt-end-1 h3 {
+    font-weight: 400;
+    margin: 5px 0 10px 0;
+    font-size: 23px;
+    color: #1a6592;
+}
+
+.txt-end-1 p {
+    color: #626364;
+    line-height: 1.8;
+}
+.txt-container-end button  {
+    margin-top:30px ; 
+    display: flex;
+    align-self: flex-end;
+    border: 1px solid #ccc;
+    background-color: transparent;
+}
+
+.txt-container-end button a{
+    
+    display: inline-block;
+    font-size: 1rem;
+    width: auto;
+    padding: 10px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #626364;
+    transition: background-color , color 0.2;
+}
+.txt-container-end button:hover a{
+   background-color:#626364 ;
+   color: white;
+}
+footer  span {
+    display: block;
+    margin: 10px auto;
+}
